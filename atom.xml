@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>糯米的博客</title>
+  <icon>http://example.com/icon.png</icon>
+  <subtitle>这里是糯米的秘密小屋</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-02-26T07:41:48.161Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>幻梦</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024虚拟形象的食用方法及桌面部署</title>
+    <link href="http://example.com/post/2024%E8%99%9A%E6%8B%9F%E5%BD%A2%E8%B1%A1%E7%9A%84%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95%E5%8F%8A%E6%A1%8C%E9%9D%A2%E9%83%A8%E7%BD%B2/"/>
+    <id>http://example.com/post/2024%E8%99%9A%E6%8B%9F%E5%BD%A2%E8%B1%A1%E7%9A%84%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95%E5%8F%8A%E6%A1%8C%E9%9D%A2%E9%83%A8%E7%BD%B2/</id>
+    <published>2024-02-26T07:37:55.000Z</published>
+    <updated>2024-02-26T07:41:48.161Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;占个位先，有空了就开写-orz&quot;&gt;&lt;a href=&quot;#占个位先，有空了就开写-orz&quot; class=&quot;headerlink&quot; title=&quot;占个位先，有空了就开写 orz&quot;&gt;&lt;/a&gt;占个位先，有空了就开写</summary>
+        
+      
+    
+    
+    
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这是什么</title>
+    <link href="http://example.com/post/%E8%BF%99%E6%98%AF%E4%BB%80%E4%B9%88/"/>
+    <id>http://example.com/post/%E8%BF%99%E6%98%AF%E4%BB%80%E4%B9%88/</id>
+    <published>2024-02-23T14:19:56.000Z</published>
+    <updated>2024-02-28T07:26:41.192Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;My第一篇blog-笑～&quot;&gt;&lt;a href=&quot;#My第一篇blog-笑～&quot; class=&quot;headerlink&quot; title=&quot;My第一篇blog(笑～&quot;&gt;&lt;/a&gt;My第一篇blog(笑～&lt;/h1&gt;&lt;h4 id=&quot;随便发点怪东西（以下都是一些没啥用的唠嗑&quot;&gt;&lt;a href=&quot;#随便发点怪东西（以下都是一些没啥用的唠嗑&quot; class=&quot;headerlink&quot; title=&quot;随便发点怪东西（以下都是一些没啥用的唠嗑&quot;&gt;&lt;/a&gt;随便发点怪东西（以下都是一些没啥用的唠嗑&lt;/h4&gt;&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="唠嗑" scheme="http://example.com/tags/%E5%94%A0%E5%97%91/"/>
+    
+  </entry>
+  
+</feed>
