@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-26T07:41:48.161Z</updated>
+  <updated>2024-02-29T08:50:06.649Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PTA作业集</title>
+    <link href="http://example.com/post/PTA%E4%BD%9C%E4%B8%9A%E9%9B%86/"/>
+    <id>http://example.com/post/PTA%E4%BD%9C%E4%B8%9A%E9%9B%86/</id>
+    <published>2024-02-29T07:13:12.000Z</published>
+    <updated>2024-02-29T08:50:06.649Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;PTA作业放在这里&quot;&gt;&lt;a href=&quot;#PTA作业放在这里&quot; class=&quot;headerlink&quot; title=&quot;PTA作业放在这里&quot;&gt;&lt;/a&gt;PTA作业放在这里&lt;/h1&gt;&lt;h2 id=&quot;一、2024-2-29——C&quot;&gt;&lt;a href=&quot;#一、2024-2-29——C&quot; class=&quot;headerlink&quot; title=&quot;一、2024.2.29——C++&quot;&gt;&lt;/a&gt;一、2024.2.29——C++&lt;/h2&gt;&lt;h3 id=&quot;1-判断题&quot;&gt;&lt;a href=&quot;#1-判断题&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="PTA" scheme="http://example.com/tags/PTA/"/>
+    
+  </entry>
   
   <entry>
     <title>2024虚拟形象的食用方法及桌面部署</title>
