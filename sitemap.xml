@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/live2d-widget/demo/demo.html</loc>
+    <loc>http://example.com/live2d-widget/demo/login.html</loc>
     
     <lastmod>2024-03-03</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/live2d-widget/demo/login.html</loc>
+    <loc>http://example.com/live2d-widget/demo/demo.html</loc>
     
     <lastmod>2024-03-03</lastmod>
     
@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%94%A0%E5%97%91/</loc>
+    <loc>http://example.com/tags/PTA/</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/PTA/</loc>
+    <loc>http://example.com/tags/%E5%94%A0%E5%97%91/</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
