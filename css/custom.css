@@ -479,66 +479,66 @@ div#category {
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
-    background: linear-gradient(
-            -45deg,
-            #e8d8b9,
-            #eccec5,
-            #a3e9eb,
-            #bdbdf0,
-            #eec1ea
-    );
-    box-shadow: 0 0 5px rgb(66, 68, 68);
-    position: relative;
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 10s ease infinite;
-    -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite !important;
-}
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+/*#aside-content > .card-widget.card-info {*/
+/*    background: linear-gradient(*/
+/*            -45deg,*/
+/*            #e8d8b9,*/
+/*            #eccec5,*/
+/*            #a3e9eb,*/
+/*            #bdbdf0,*/
+/*            #eec1ea*/
+/*    );*/
+/*    box-shadow: 0 0 5px rgb(66, 68, 68);*/
+/*    position: relative;*/
+/*    background-size: 400% 400%;*/
+/*    -webkit-animation: Gradient 10s ease infinite;*/
+/*    -moz-animation: Gradient 10s ease infinite;*/
+/*    animation: Gradient 10s ease infinite !important;*/
+/*}*/
+/*@-webkit-keyframes Gradient {*/
+/*    0% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/
+/*@-moz-keyframes Gradient {*/
+/*    0% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/
+/*@keyframes Gradient {*/
+/*    0% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/
 
-/* 黑夜模式适配 */
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-    background: #191919ee;
-}
+/*!* 黑夜模式适配 *!*/
+/*[data-theme="dark"] #aside-content > .card-widget.card-info {*/
+/*    background: #191919ee;*/
+/*}*/
 
-/* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
-    background-color: #3eb8be;
-    border-radius: 8px;
-}
+/*!* 个人信息Follow me按钮 *!*/
+/*#aside-content > .card-widget.card-info > #card-info-btn {*/
+/*    background-color: #3eb8be;*/
+/*    border-radius: 8px;*/
+/*}*/
 
 /* twikoo评论美化 */
 /* 自定义twikoo评论输入框高度 */
@@ -663,6 +663,89 @@ div#category {
     background-size: 100%;
 }
 
+/* 信息卡片彩带 */
+.author_top:hover {
+    background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
+    background-size: cover;
+}
+
+/* 头像呼吸灯 */
+[data-theme="light"] .avatar-img {
+    animation: huxi_light 10s ease-in-out infinite;
+}
+[data-theme="dark"] .avatar-img {
+    animation: huxi_dark 10s ease-in-out infinite;
+}
+@keyframes huxi_light {
+    0% {
+        box-shadow: 0px 0px 1px 1px #7bff42;
+    }
+    10% {
+        box-shadow: 0px 0px 1px 1px #95fd38;
+    }
+    20% {
+        box-shadow: 0px 0px 1px 1px #b0fc2e;
+    }
+    30% {
+        box-shadow: 0px 0px 1px 1px #cafa23;
+    }
+    40% {
+        box-shadow: 0px 0px 1px 1px #e5f919;
+    }
+    50% {
+        box-shadow: 0px 0px 1px 1px #fff70f;
+    }
+    60% {
+        box-shadow: 0px 0px 5px 5px #e5f919;
+    }
+    70% {
+        box-shadow: 0px 0px 1px 1px #cafa23;
+    }
+    80% {
+        box-shadow: 0px 0px 1px 1px #b0fc2e;
+    }
+    90% {
+        box-shadow: 0px 0px 1px 1px #95fd38;
+    }
+    100% {
+        box-shadow: 0px 0px 1px 1px #7bff42;
+    }
+}
+@keyframes huxi_dark {
+    0% {
+        box-shadow: 0px 0px 1px 1px #0f37ff;
+    }
+    10% {
+        box-shadow: 0px 0px 1px 1px #3039ff;
+    }
+    20% {
+        box-shadow: 0px 0px 1px 1px #513bff;
+    }
+    30% {
+        box-shadow: 0px 0px 1px 1px #723eff;
+    }
+    40% {
+        box-shadow: 0px 0px 1px 1px #9340ff;
+    }
+    50% {
+        box-shadow: 0px 0px 1px 1px #b442ff;
+    }
+    60% {
+        box-shadow: 0px 0px 5px 5px #9340ff;
+    }
+    70% {
+        box-shadow: 0px 0px 1px 1px #723eff;
+    }
+    80% {
+        box-shadow: 0px 0px 1px 1px #513bff;
+    }
+    90% {
+        box-shadow: 0px 0px 1px 1px #3039ff;
+    }
+    100% {
+        box-shadow: 0px 0px 1px 1px #0f37ff;
+    }
+}
 /*!* 波浪css *!*/
 /*.main-hero-waves-area {*/
 /*    width: 100%;*/
