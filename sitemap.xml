@@ -196,14 +196,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E4%BD%9C%E4%B8%9A/</loc>
+    <loc>http://example.com/tags/PTA/</loc>
     <lastmod>2025-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/PTA/</loc>
+    <loc>http://example.com/tags/%E4%BD%9C%E4%B8%9A/</loc>
     <lastmod>2025-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
